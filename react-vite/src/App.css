@@ -1,0 +1,19 @@
+* {
+    background-color: #46463d;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    width: 10em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid whitesmoke;
+    margin-block-end: 1em;
+}
