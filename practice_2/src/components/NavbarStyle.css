@@ -1,0 +1,22 @@
+
+
+.myList{
+    /* border: 1px solid black; */
+    background-color:darkslategrey;
+    color: white;
+    /* border-radius: 10px; */
+    display: flex;
+    padding: 20px;
+
+    
+
+    li{
+       list-style-type: none;
+       padding: 0 10px;
+       cursor: pointer;
+    }
+}
+
+ul {
+    margin: 0;
+}

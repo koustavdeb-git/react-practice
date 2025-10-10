@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        font-weight: 500;
+    }
+
+    button {
+        background-color: #D01C28;
+        border: none;
+        color: white;
+        padding: 6px 16px;
+        font-weight: 500;
+    }
+}
