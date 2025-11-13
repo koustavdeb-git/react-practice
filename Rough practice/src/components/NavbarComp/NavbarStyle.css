@@ -7,7 +7,7 @@
     /* border-radius: 10px; */
     display: flex;
     padding: 20px;
-
+    align-items: center;
     
 
     li{
@@ -19,4 +19,9 @@
 
 ul {
     margin: 0;
+}
+
+.myList p{
+    margin-left: auto;
+    margin-bottom: 0;
 }

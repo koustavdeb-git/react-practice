@@ -13,19 +13,18 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    Hi I am KANE
+      <Navbar />
+      <div className="mainContainer">
+        Hi I am KANE
 
-    <Table/>
+        <Table />
 
-    <div className='mt-5'>
-      <HooksPractice/>
-    </div>
+        <div className='mt-5'>
+          <HooksPractice />
+        </div>
 
-
-    
-    <Footer/>
-    
+      </div>
+      <Footer />
     </>
   )
 }
