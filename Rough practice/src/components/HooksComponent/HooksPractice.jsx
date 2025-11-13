@@ -19,7 +19,7 @@ const HooksPractice = () => {
             <div>
                 My count is - ${count}
             </div>
-            <button onClick={increase}>Increase count</button>
+            <button className='btn btn-primary' onClick={increase}>Increase count</button>
         </div>
     )
 }
