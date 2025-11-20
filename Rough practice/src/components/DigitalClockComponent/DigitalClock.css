@@ -1,0 +1,8 @@
+.clock-style {
+    font-size: 2rem;
+    /* color: darkslategray; */
+
+    span{
+        font-weight: bold;
+    }
+}
