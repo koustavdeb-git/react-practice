@@ -4,6 +4,7 @@ import Navbar from './components/NavbarComp/Navbar'
 import Table from './components/TableComponent/Table'
 import Dashboard from './components/DashboardComp/Dashboard'
 import HooksPractice from './components/HooksComponent/HooksPractice'
+import DigitalClock from './components/DigitalClockComponent/DigitalClock'
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -15,7 +16,7 @@ function App() {
     <>
       <Navbar />
       <div className="mainContainer">
-        Hi I am KANE
+        Hi I am Koustav
 
         <Table />
 
@@ -23,7 +24,11 @@ function App() {
           <HooksPractice />
         </div>
 
+        <div className="clockContainer mt-5">
+          <DigitalClock />
+        </div>
       </div>
+
       <Footer />
     </>
   )
