@@ -5,6 +5,7 @@ import Table from './components/TableComponent/Table'
 import Dashboard from './components/DashboardComp/Dashboard'
 import HooksPractice from './components/HooksComponent/HooksPractice'
 import DigitalClock from './components/DigitalClockComponent/DigitalClock'
+import FormComp from './components/FormComponent/FormComp'
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -26,6 +27,10 @@ function App() {
 
         <div className="clockContainer mt-5">
           <DigitalClock />
+        </div>
+
+        <div className="formContainer mt-5">
+          <FormComp/>
         </div>
       </div>
 
