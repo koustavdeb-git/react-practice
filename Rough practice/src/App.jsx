@@ -29,7 +29,7 @@ function App() {
           <DigitalClock />
         </div>
 
-        <div className="formContainer mt-5">
+        <div className="formContainer m-5">
           <FormComp/>
         </div>
       </div>
