@@ -13,14 +13,14 @@ h3 {
 }
 .formRow {
     padding: 10px;
+    height: 85px;
 }
 
 .formRow p{
     margin-bottom: 0;
 }
 
-.errorBox {
-    height: 18px;   /* reserves space */
+.error-msg {/* reserves space */
     color: red;
     font-size: 12px;
 }

@@ -24,6 +24,7 @@ const FormComp = () => {
                         <label>Name:
                             <br />
                             <input autoComplete='off'
+                                className={errors.name ? "error-box" : ""}
                                 {...register("name",
                                     {
                                         required: {
@@ -38,7 +39,7 @@ const FormComp = () => {
                                     })} />
 
                             <div className="errorBox">
-                                {errors.name && <p>{errors.name.message}</p>}
+                                {errors.name && <p className='error-msg'>{errors.name.message}</p>}
                             </div>
                         </label>
                     </div>
