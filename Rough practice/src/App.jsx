@@ -6,6 +6,7 @@ import Dashboard from './components/DashboardComp/Dashboard'
 import HooksPractice from './components/HooksComponent/HooksPractice'
 import DigitalClock from './components/DigitalClockComponent/DigitalClock'
 import FormComp from './components/FormComponent/FormComp'
+import AsyncFetch from './components/AsyncFetch/AsyncFetch'
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -31,6 +32,10 @@ function App() {
 
         <div className="formContainer m-5">
           <FormComp/>
+        </div>
+
+        <div className="fetchdata my-5">
+          <AsyncFetch/>
         </div>
       </div>
 
