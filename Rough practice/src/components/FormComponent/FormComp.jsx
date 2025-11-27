@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from "react-hook-form"
-import './FormComp.css'
+import styles from './FormComp.module.css'
 
 const FormComp = () => {
     const {
@@ -16,11 +16,11 @@ const FormComp = () => {
     }
 
     return (
-        <div className='formStyle'>
-            <h3>Try this Form</h3>
+        <div className={styles.formStyle}>
+            <h3 className={styles.heading}>Try this Form</h3>
             <div className="mt-3">
                 <form onSubmit={handleSubmit(afterSubmit)}>
-                    <div className='formRow'>
+                    <div className={styles.formRow}>
                         <label>Name:
                             <br />
                             <input autoComplete='off'
@@ -38,19 +38,19 @@ const FormComp = () => {
                                         }
                                     })} />
 
-                            <div className="errorBox">
-                                {errors.name && <p className='error-msg'>{errors.name.message}</p>}
+                            <div className={styles.errorBox}>
+                                {errors.name && <p className={styles.errormsg}>{errors.name.message}</p>}
                             </div>
                         </label>
                     </div>
-                    <div className='formRow'>
+                    <div className={styles.formRow}>
                         <label>Age:
                             <br />
                             <input autoComplete='off'
                                 {...register("age", { min: 18, max: 99 })} />
                         </label>
                     </div>
-                    <div className="submit">
+                    <div className={styles.submit}>
                         <input type='submit' />
                     </div>
                 </form>

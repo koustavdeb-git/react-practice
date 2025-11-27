@@ -6,7 +6,7 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-h3 {
+.heading {
     color: #005e36;
     font-weight: bold;
     text-align: center;
@@ -20,7 +20,7 @@ h3 {
     margin-bottom: 0;
 }
 
-.error-msg {/* reserves space */
+.errormsg {/* reserves space */
     color: red;
     font-size: 12px;
 }
