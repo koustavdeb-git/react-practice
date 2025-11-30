@@ -51,7 +51,7 @@ const FormComp = () => {
                         </label>
                     </div>
                     <div className={styles.submit}>
-                        <input type='submit' />
+                        <input className='btn btn-success' type='submit' />
                     </div>
                 </form>
             </div>
